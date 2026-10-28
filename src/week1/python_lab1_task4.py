@@ -54,17 +54,16 @@ Examples (these are also used to check your work):
 0.0
 """
 
+# def count_characters(text: str) -> int:
+#     """Count characters that are not whitespace."""
+#     # TODO: implement
+#     return sum(len(word) for word in text.split())
 
-def count_characters(text: str) -> int:
-    """Count characters that are not whitespace."""
-    # TODO: implement
-    return sum(len(word) for word in text.split())
 
-
-def count_words(text: str) -> int:
-    """Count number of whitespace-separated words."""
-    # TODO: implement
-    return len(text.split())
+# def count_words(text: str) -> int:
+#     """Count number of whitespace-separated words."""
+#     # TODO: implement
+#     return len(text.split())
 
 
 def extract_numbers(text: str) -> list[int]:
